@@ -1,0 +1,22 @@
+No terminal
+
+Ativar o ambiente de trabalho:
+1.py -m venv {nome do ambiente do projeto}
+2.{nome do ambiente do projeto}\Scripts\activate.py
+
+Fechar o ambiente de trabalho:
+1.{nome do ambiente do projeto}\Scripts\deactivate.py
+
+Instalar o Django, dentro do ambiente virtual
+
+1. py -m pip install Django
+2. django-admin --version
+
+Depois de ativar o ambiente de trabalho:
+1. cd {nome do ambiente do projeto}
+2. django-admin startproject {NomeDoProjeto}
+Estrutura com o sistema de arquivos criados
+
+# Iniciar o servidor local Django
+1. cd {NomeDoProjeto}
+2. py manager.py runserver
